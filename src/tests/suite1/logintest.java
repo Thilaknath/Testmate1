@@ -4,9 +4,6 @@ import java.io.IOException;
 import java.util.Arrays;
 import java.util.Collection;
 
-
-
-import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -55,8 +52,7 @@ public class logintest extends testbase {
 			System.out.println("Loggin in with wrong user name and password");
 		}
 		
-		TestUtil.logout();
-	}
+			}
 
 	
 	@Parameters

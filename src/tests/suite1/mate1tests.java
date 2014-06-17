@@ -64,6 +64,11 @@ public class mate1tests extends testbase  {
 		new Select(driver.findElement(By.xpath("//*[@id='smoking']")))
 			.selectByValue("3");
 		
+		getObject("aboutme").clear();
+		getObject("aboutme").sendKeys("@");
+		getObject("whatami").clear();
+		getObject("whatami").sendKeys("www.google.com");
+		
 		getObject("submit").click();
 		
 		Thread.sleep(1000);
@@ -88,11 +93,17 @@ public class mate1tests extends testbase  {
 			System.out.println("ERROR"+e.getMessage());
 		}
 				
+		String Title4 = driver.findElement(By.xpath("//*[@id='about_myself']/p")).getText();
+		System.out.println(Title4);
+		
 		getObject("signout").click();
+				
+			
+	}
 		
 	}
-	
-	}
+
+
 	
 		
 
