@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="1" failures="0" hostname="Thilaknath-PC" id="0" name="SuiteRunner" package="tests.suite1" skipped="0" tests="3" time="84.468" timestamp="2014-06-17T12:45:15">
+      <properties>
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="sun.management.compiler" value="HotSpot Client Compiler" />
+
+          <property name="env.PROMPT" value="$P$G" />
+
+          <property name="env.LSERVRC" value="C:\ProgramData\HP\Functional testing\License\lservrc" />
+
+          <property name="os.name" value="Windows 7" />
+
+          <property name="env.FP_NO_HOST_CHECK" value="NO" />
+
+          <property name="sun.boot.class.path" value="C:\Program Files (x86)\Java\jdk1.7.0_51\jre\lib\resources.jar;C:\Program Files (x86)\Java\jdk1.7.0_51\jre\lib\rt.jar;C:\Program Files (x86)\Java\jdk1.7.0_51\jre\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jdk1.7.0_51\jre\lib\jsse.jar;C:\Program Files (x86)\Java\jdk1.7.0_51\jre\lib\jce.jar;C:\Program Files (x86)\Java\jdk1.7.0_51\jre\lib\charsets.jar;C:\Program Files (x86)\Java\jdk1.7.0_51\jre\lib\jfr.jar;C:\Program Files (x86)\Java\jdk1.7.0_51\jre\classes" />
+
+          <property name="env.COMPUTERNAME" value="THILAKNATH-PC" />
+
+          <property name="env.CommonProgramW6432" value="C:\Program Files\Common Files" />
+
+          <property name="env.ALLUSERSPROFILE" value="C:\ProgramData" />
+
+          <property name="sun.desktop" value="windows" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="ant.home" value="C:\apache-ant-1.9.4" />
+
+          <property name="java.runtime.version" value="1.7.0_51-b13" />
+
+          <property name="env.HOMEPATH" value="\Users\Thilaknath" />
+
+          <property name="user.name" value="Thilaknath" />
+
+          <property name="ant.file.type.JunitDataDriven" value="file" />
+
+          <property name="env.QTJAVA" value="C:\Program Files (x86)\Java\jre7\lib\ext\QTJava.zip" />
+
+          <property name="user.language" value="en" />
+
+          <property name="env.PT5HOME" value="C:\Program Files (x86)\Cisco Packet Tracer 5.3.2" />
+
+          <property name="sun.boot.library.path" value="C:\Program Files (x86)\Java\jdk1.7.0_51\jre\bin" />
+
+          <property name="ant.project.default-target" value="build" />
+
+          <property name="ant.project.name" value="JunitDataDriven" />
+
+          <property name="java.version" value="1.7.0_51" />
+
+          <property name="env.PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 23 Stepping 10, GenuineIntel" />
+
+          <property name="user.timezone" value="" />
+
+          <property name="env.asl.log" value="Destination=file" />
+
+          <property name="env.TEMP" value="C:\Users\THILAK~1\AppData\Local\Temp" />
+
+          <property name="sun.arch.data.model" value="32" />
+
+          <property name="java.endorsed.dirs" value="C:\Program Files (x86)\Java\jdk1.7.0_51\jre\lib\endorsed" />
+
+          <property name="env.PROCESSOR_ARCHITEW6432" value="AMD64" />
+
+          <property name="env._JAVACMD" value="C:\Program Files (x86)\Java\jdk1.7.0_51\bin\java.exe" />
+
+          <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86" />
+
+          <property name="env.HOMEDRIVE" value="C:" />
+
+          <property name="sun.jnu.encoding" value="Cp1252" />
+
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="env.VS110COMNTOOLS" value="C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\Tools\" />
+
+          <property name="file.separator" value="\" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="java.class.version" value="51.0" />
+
+          <property name="user.country" value="IN" />
+
+          <property name="java.home" value="C:\Program Files (x86)\Java\jdk1.7.0_51\jre" />
+
+          <property name="env.PSModulePath" value="C:\Windows\system32\WindowsPowerShell\v1.0\Modules\" />
+
+          <property name="env.APPDATA" value="C:\Users\Thilaknath\AppData\Roaming" />
+
+          <property name="env.PUBLIC" value="C:\Users\Public" />
+
+          <property name="java.vm.info" value="mixed mode, sharing" />
+
+          <property name="env.ComSpec" value="C:\Windows\system32\cmd.exe" />
+
+          <property name="env.OS" value="Windows_NT" />
+
+          <property name="env.CommonProgramFiles" value="C:\Program Files (x86)\Common Files" />
+
+          <property name="ant.file" value="C:\Users\Thilaknath\workspace1\JunitDataDriven\build.xml" />
+
+          <property name="os.version" value="6.1" />
+
+          <property name="env.ProgramW6432" value="C:\Program Files" />
+
+          <property name="env._USE_CLASSPATH" value="yes" />
+
+          <property name="env.=::" value="::\" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="java.vm.version" value="24.51-b03" />
+
+          <property name="env.USERPROFILE" value="C:\Users\Thilaknath" />
+
+          <property name="user.variant" value="" />
+
+          <property name="ant.library.dir" value="C:\apache-ant-1.9.4\lib" />
+
+          <property name="junit.output.dir" value="junit" />
+
+          <property name="env.JAVA_HOME" value="C:\Program Files (x86)\Java\jdk1.7.0_51" />
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+
+          <property name="env.TMP" value="C:\Users\THILAK~1\AppData\Local\Temp" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+
+          <property name="user.script" value="" />
+
+          <property name="user.home" value="C:\Users\Thilaknath" />
+
+          <property name="target" value="1.7" />
+
+          <property name="env.ProgramData" value="C:\ProgramData" />
+
+          <property name="env.SESSIONNAME" value="Console" />
+
+          <property name="env.ProgramFiles(x86)" value="C:\Program Files (x86)" />
+
+          <property name="env.RoxioCentral" value="C:\Program Files (x86)\Common Files\Roxio Shared\10.0\Roxio Central36\" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="env.CLASSPATH" value=".;C:\Program Files (x86)\Java\jre7\lib\ext\QTJava.zip" />
+
+          <property name="java.vendor.url" value="http://java.oracle.com/" />
+
+          <property name="java.library.path" value="C:\Program Files (x86)\Java\jdk1.7.0_51\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Java\jre7\bin;C:\Selenium\Chrome;C:\Selenium\Internet Explorer;C:\WINDOWS\system32;F:\Maven\apache-maven-3.2.1\bin;C:\Program Files\TortoiseSVN\bin;C:\apache-ant-1.9.4\bin;C:\Python22;C:\Python22\Scripts\;C:\Ruby193\bin;C:\Program Files (x86)\IDM Computer Solutions\UEStudio\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;." />
+
+          <property name="env.NUMBER_OF_PROCESSORS" value="2" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="java.class.path" value="C:\Users\Thilaknath\workspace1\JunitDataDriven\bin;C:\eclipse\selenium-2.41.0\poi-3.10-FINAL\poi-3.10-FINAL-20140208.jar;C:\eclipse\selenium-2.41.0\poi-3.10-FINAL\poi-examples-3.10-FINAL-20140208.jar;C:\eclipse\selenium-2.41.0\poi-3.10-FINAL\poi-excelant-3.10-FINAL-20140208.jar;C:\eclipse\selenium-2.41.0\poi-3.10-FINAL\poi-ooxml-3.10-FINAL-20140208.jar;C:\eclipse\selenium-2.41.0\poi-3.10-FINAL\poi-ooxml-schemas-3.10-FINAL-20140208.jar;C:\eclipse\selenium-2.41.0\poi-3.10-FINAL\poi-scratchpad-3.10-FINAL-20140208.jar;C:\eclipse\selenium-2.41.0\libs\apache-mime4j-0.6.jar;C:\eclipse\selenium-2.41.0\libs\bsh-1.3.0.jar;C:\eclipse\selenium-2.41.0\libs\cglib-nodep-2.1_3.jar;C:\eclipse\selenium-2.41.0\libs\commons-codec-1.8.jar;C:\eclipse\selenium-2.41.0\libs\commons-collections-3.2.1.jar;C:\eclipse\selenium-2.41.0\libs\commons-exec-1.1.jar;C:\eclipse\selenium-2.41.0\libs\commons-io-2.2.jar;C:\eclipse\selenium-2.41.0\libs\commons-jxpath-1.3.jar;C:\eclipse\selenium-2.41.0\libs\commons-lang3-3.1.jar;C:\eclipse\selenium-2.41.0\libs\commons-logging-1.1.1.jar;C:\eclipse\selenium-2.41.0\libs\cssparser-0.9.11.jar;C:\eclipse\selenium-2.41.0\libs\guava-15.0.jar;C:\eclipse\selenium-2.41.0\libs\hamcrest-core-1.3.jar;C:\eclipse\selenium-2.41.0\libs\hamcrest-library-1.3.jar;C:\eclipse\selenium-2.41.0\libs\htmlunit-2.13.jar;C:\eclipse\selenium-2.41.0\libs\htmlunit-core-js-2.13.jar;C:\eclipse\selenium-2.41.0\libs\httpclient-4.3.1.jar;C:\eclipse\selenium-2.41.0\libs\httpcore-4.3.jar;C:\eclipse\selenium-2.41.0\libs\httpmime-4.3.1.jar;C:\eclipse\selenium-2.41.0\libs\ini4j-0.5.2.jar;C:\eclipse\selenium-2.41.0\libs\jcommander-1.29.jar;C:\eclipse\selenium-2.41.0\libs\jetty-websocket-8.1.8.jar;C:\eclipse\selenium-2.41.0\libs\jna-3.4.0.jar;C:\eclipse\selenium-2.41.0\libs\jna-platform-3.4.0.jar;C:\eclipse\selenium-2.41.0\libs\json-20080701.jar;C:\eclipse\selenium-2.41.0\libs\junit-dep-4.11.jar;C:\eclipse\selenium-2.41.0\libs\nekohtml-1.9.19.jar;C:\eclipse\selenium-2.41.0\libs\netty-3.5.7.Final.jar;C:\eclipse\selenium-2.41.0\libs\operadriver-1.5.jar;C:\eclipse\selenium-2.41.0\libs\phantomjsdriver-1.1.0.jar;C:\eclipse\selenium-2.41.0\libs\protobuf-java-2.4.1.jar;C:\eclipse\selenium-2.41.0\libs\sac-1.3.jar;C:\eclipse\selenium-2.41.0\libs\selenium-java-2.41.0.jar;C:\eclipse\selenium-2.41.0\libs\selenium-java-2.41.0-srcs.jar;C:\eclipse\selenium-2.41.0\libs\serializer-2.7.1.jar;C:\eclipse\selenium-2.41.0\libs\testng-6.8.5.jar;C:\eclipse\selenium-2.41.0\libs\xalan-2.7.1.jar;C:\eclipse\selenium-2.41.0\libs\xercesImpl-2.10.0.jar;C:\eclipse\selenium-2.41.0\libs\xml-apis-1.4.01.jar;C:\Users\Thilaknath\workspace1\JunitDataDriven;C:\Program Files (x86)\Java\jre7\lib\ext\QTJava.zip;C:\apache-ant-1.9.4\lib\ant-launcher.jar;C:\apache-ant-1.9.4\lib\ant.jar;C:\apache-ant-1.9.4\lib\ant-junit.jar;C:\apache-ant-1.9.4\lib\ant-junit4.jar" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.9.4 compiled on April 29 2014" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner tests.suite1.SuiteRunner skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Thilaknath\workspace1\JunitDataDriven\junit\TEST-tests.suite1.SuiteRunner.xml crashfile=C:\Users\Thilaknath\workspace1\JunitDataDriven\junitvmwatcher8731347173470279063.properties propsfile=C:\Users\Thilaknath\workspace1\JunitDataDriven\junit7905671850458713919.properties" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="env.ST_INSTALL_PATH" value="C:\Program Files (x86)\HP\Unified Functional Testing\" />
+
+          <property name="ant.file.type" value="file" />
+
+          <property name="env.LOGONSERVER" value="\\THILAKNATH-PC" />
+
+          <property name="env.windir" value="C:\Windows" />
+
+          <property name="env.PROCESSOR_ARCHITECTURE" value="x86" />
+
+          <property name="java.vm.specification.version" value="1.7" />
+
+          <property name="env.MAVEN" value="F:\Maven\apache-maven-3.2.1\bin" />
+
+          <property name="sun.os.patch.level" value="Service Pack 1" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="debuglevel" value="source,lines,vars" />
+
+          <property name="env.ProgramFiles" value="C:\Program Files (x86)" />
+
+          <property name="env.ANT_HOME" value="C:\apache-ant-1.9.4" />
+
+          <property name="java.io.tmpdir" value="C:\Users\THILAK~1\AppData\Local\Temp\" />
+
+          <property name="env.PROCESSOR_REVISION" value="170a" />
+
+          <property name="env.CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files" />
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+
+          <property name="env.SystemRoot" value="C:\Windows" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+
+          <property name="os.arch" value="x86" />
+
+          <property name="env.ANT_CMD_LINE_ARGS" value=" clean build SuiteRunner junitreport" />
+
+          <property name="java.ext.dirs" value="C:\Program Files (x86)\Java\jdk1.7.0_51\jre\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+
+          <property name="env.LOCALAPPDATA" value="C:\Users\Thilaknath\AppData\Local" />
+
+          <property name="env.MAVEN_HOME" value="F:\Maven" />
+
+          <property name="user.dir" value="C:\Users\Thilaknath\workspace1\JunitDataDriven" />
+
+          <property name="line.separator" value="&#xd;&#xa;" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) Client VM" />
+
+          <property name="env.PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC" />
+
+          <property name="env.Path" value="C:\Program Files (x86)\Java\jre7\bin;C:\Selenium\Chrome;C:\Selenium\Internet Explorer;C:\WINDOWS\system32;F:\Maven\apache-maven-3.2.1\bin;C:\Program Files\TortoiseSVN\bin;C:\apache-ant-1.9.4\bin;C:\Python22;C:\Python22\Scripts\;C:\Ruby193\bin;C:\Program Files (x86)\IDM Computer Solutions\UEStudio\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\" />
+
+          <property name="basedir" value="C:\Users\Thilaknath\workspace1\JunitDataDriven" />
+
+          <property name="ant.java.version" value="1.7" />
+
+          <property name="ant.core.lib" value="C:\apache-ant-1.9.4\lib\ant.jar" />
+
+          <property name="env.USERNAME" value="Thilaknath" />
+
+          <property name="source" value="1.7" />
+
+          <property name="env.SystemDrive" value="C:" />
+
+          <property name="file.encoding" value="Cp1252" />
+
+          <property name="env.USERDOMAIN" value="Thilaknath-PC" />
+
+          <property name="java.specification.version" value="1.7" />
+
+          <property name="env.=C:" value="C:\Users\Thilaknath\workspace1\JunitDataDriven" />
+
+          <property name="ant.project.invoked-targets" value="clean,build,SuiteRunner,junitreport" />
+
+          <property name="ant.file.JunitDataDriven" value="C:\Users\Thilaknath\workspace1\JunitDataDriven\build.xml" />
+
+          <property name="env.PROCESSOR_LEVEL" value="6" />
+
+      </properties>
+
+      <testcase classname="tests.suite1.logintest" name="logintest1[0]" time="44.037" />
+
+      <testcase classname="tests.suite1.Regtest" name="editformtest" time="9.49" />
+
+      <testcase classname="tests.suite1.formfilling" name="changepwd" time="30.627">
+          <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at tests.suite1.formfilling.changepwd(formfilling.java:21)
+</error>
+
+      </testcase>
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+</testsuites>
