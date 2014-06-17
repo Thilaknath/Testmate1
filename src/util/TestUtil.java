@@ -39,6 +39,8 @@ public class TestUtil extends testbase {
 			String user1 = "vampslayer";
 			if (userdisplay.equals(user1)) {
 				isloggedin = true;
+				System.out.println("Succesfull login");
+				System.out.println(Title1);
 			} else {
 				isloggedin = false;
 			}

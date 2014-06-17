@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
-  <testsuite errors="1" failures="0" hostname="Thilaknath-PC" id="0" name="SuiteRunner" package="tests.suite1" skipped="0" tests="3" time="84.468" timestamp="2014-06-17T12:45:15">
+  <testsuite errors="1" failures="0" hostname="Thilaknath-PC" id="0" name="SuiteRunner" package="tests.suite1" skipped="0" tests="2" time="107.633" timestamp="2014-06-17T20:10:15">
       <properties>
           <property name="java.vendor" value="Oracle Corporation" />
 
@@ -166,7 +166,7 @@
 
           <property name="ant.version" value="Apache Ant(TM) version 1.9.4 compiled on April 29 2014" />
 
-          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner tests.suite1.SuiteRunner skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Thilaknath\workspace1\JunitDataDriven\junit\TEST-tests.suite1.SuiteRunner.xml crashfile=C:\Users\Thilaknath\workspace1\JunitDataDriven\junitvmwatcher8731347173470279063.properties propsfile=C:\Users\Thilaknath\workspace1\JunitDataDriven\junit7905671850458713919.properties" />
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner tests.suite1.SuiteRunner skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Thilaknath\workspace1\JunitDataDriven\junit\TEST-tests.suite1.SuiteRunner.xml crashfile=C:\Users\Thilaknath\workspace1\JunitDataDriven\junitvmwatcher5692131101086673112.properties propsfile=C:\Users\Thilaknath\workspace1\JunitDataDriven\junit1223770902707501639.properties" />
 
           <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
 
@@ -254,18 +254,19 @@
 
       </properties>
 
-      <testcase classname="tests.suite1.logintest" name="logintest1[0]" time="44.037" />
+      <testcase classname="tests.suite1.logintest" name="logintest1[0]" time="68.816" />
 
-      <testcase classname="tests.suite1.Regtest" name="editformtest" time="9.49" />
-
-      <testcase classname="tests.suite1.formfilling" name="changepwd" time="30.627">
+      <testcase classname="tests.suite1.mate1tests" name="mate1test" time="38.409">
           <error type="java.lang.NullPointerException">java.lang.NullPointerException
-	at tests.suite1.formfilling.changepwd(formfilling.java:21)
+	at tests.suite1.mate1tests.mate1test(mate1tests.java:26)
 </error>
 
       </testcase>
 
-      <system-out><![CDATA[]]></system-out>
+      <system-out><![CDATA[Succesfull login
+Mate1.com - Find Someone Today
+ login with good credentials
+]]></system-out>
 
       <system-err><![CDATA[]]></system-err>
 

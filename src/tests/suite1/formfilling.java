@@ -26,9 +26,9 @@ public class formfilling extends testbase{
 		String userdisplay = getObject("confirmation").getText();
 		String cmp = "Your settings have been saved successfully.";
 		if(userdisplay.equals(cmp)){
-			System.out.println("Settings Saved Succesfully");
+			System.out.println("Fail");
 		}else{
-			System.out.println("Failed To Save Data");
+			System.out.println("Pass");
 		}
 		
 		getObject("signout").click();

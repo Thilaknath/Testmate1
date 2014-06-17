@@ -5,7 +5,7 @@ import org.junit.runners.Suite;
 import org.junit.runners.Suite.SuiteClasses;
 
 @RunWith(Suite.class)
-@SuiteClasses({ logintest.class, Regtest.class,formfilling.class })
+@SuiteClasses({ logintest.class, mate1tests.class })
 public class SuiteRunner {
 
 }

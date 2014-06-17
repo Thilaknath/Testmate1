@@ -69,17 +69,6 @@
     <target name="clean">
         <delete dir="bin"/>
     </target>
-              	
-              	          	
-              	
-              	
-              	
-              	
-              	
-              	
-              	
-              	
-              	
     <target depends="clean" name="cleanall"/>
     <target depends="build-subprojects,build-project" name="build"/>
     <target name="build-subprojects"/>
@@ -104,6 +93,14 @@
         <property name="build.compiler" value="org.eclipse.jdt.core.JDTCompilerAdapter"/>
         <antcall target="build"/>
     </target>
+    <target name="formfilling">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="tests.suite1.formfilling" todir="${junit.output.dir}"/>
+            <classpath refid="JunitDataDriven.classpath"/>
+        </junit>
+    </target>
     <target name="logintest">
         <mkdir dir="${junit.output.dir}"/>
         <junit fork="yes" printsummary="withOutAndErr">
@@ -125,6 +122,14 @@
         <junit fork="yes" printsummary="withOutAndErr">
             <formatter type="xml"/>
             <test name="tests.suite1.SuiteRunner" todir="${junit.output.dir}"/>
+            <classpath refid="JunitDataDriven.classpath"/>
+        </junit>
+    </target>
+    <target name="mate1tests">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="tests.suite1.mate1tests" todir="${junit.output.dir}"/>
             <classpath refid="JunitDataDriven.classpath"/>
         </junit>
     </target>

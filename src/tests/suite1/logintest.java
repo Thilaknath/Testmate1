@@ -48,8 +48,8 @@ public class logintest extends testbase {
 		TestUtil.dologin(email, password);
 		if (isloggedin & posdata.equals("Y")) {
 			// report error
-			System.out.println("Not able to login with good credentials");
-			Assert.assertTrue("Not able to log in ", false);
+			System.out.println(" login with good credentials");
+			
 		}else if (isloggedin & posdata.equals("N")){
 			//report error login with wrong user name
 			System.out.println("Loggin in with wrong user name and password");
@@ -68,7 +68,7 @@ public class logintest extends testbase {
 		Object[][] data = new Object[1][3];
 			
 		//1st set of data
-		data[0][0]="xxxxxxx@xxxxxx.com";
+		data[0][0]="thilaknath@rocketmail.com";
 		data[0][1]="qwerty";
 		data[0][2]="Y";
 		
